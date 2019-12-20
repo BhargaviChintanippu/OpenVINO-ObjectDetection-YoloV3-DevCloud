@@ -103,12 +103,12 @@ In this section, you will use the Model Optimizer to convert a trained model to 
 ```
 
 #### 1.6 Run the following command to generate .xml and .bin files
-
+- FP32:
 ```bash
-    !mkdir FP32,FP16
-
     !python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo_tf.py --input_model=$HOME/Benchmarking_DL_Models/Yolo_V3_Model/frozen_darknet_yolov3_model.pb --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/yolo_v3.json --batch 1 -o FP32/
-
+```
+- FP16:
+```bash
     !python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo_tf.py --input_model=$HOME/Benchmarking_DL_Models/Yolo_V3_Model/frozen_darknet_yolov3_model.pb --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/yolo_v3.json --batch 1 --data_type=FP16 -o FP16/
 ```
 
