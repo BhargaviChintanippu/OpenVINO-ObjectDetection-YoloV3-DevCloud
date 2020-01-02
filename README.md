@@ -4,7 +4,7 @@ To Validate the Object Detection Demo Yolo V3 Async On Devcloud, proceed with be
 
 ## Log in to the Intel® DevCloud:
 - Sign into the Intel DevCloud account with your credentials from [here](https://software.intel.com/en-us/devcloud/edge)
-- If you are new user, Register into the Intel DevCloud account from [here](https://software.intel.com/registration/?lang=en-us)
+- If you are new user, Register into the Intel DevCloud account from [here](https://inteliotgnew.secure.force.com/devcloudsignup)
 - In home page, Under "Advanced Tab", Click on "Connect and Create"
 - Click on My Files, then you will be navigated to your Home Directory.
 
